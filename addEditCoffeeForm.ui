@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QDialog" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add/Edit Coffee</string>
+  </property>
+  <layout class="QVBoxLayout">
+   <item>
+    <widget class="QLineEdit" name="sortNameEdit"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="roastDegreeEdit"/>
+   </item>
+   <item>
+    <widget class="QComboBox" name="groundComboBox">
+     <item>
+      <property name="text">
+       <string>Молотый</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>В зернах</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="tasteDescriptionEdit"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="priceEdit"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="packageVolumeEdit"/>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
